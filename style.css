@@ -1,0 +1,63 @@
+/* Reset some default styles to start with a clean slate */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Apply the background color */
+body {
+  background-color: #464646;
+  font-family: Arial, sans-serif; /* Set a default font for the entire page */
+}
+
+/* Style your website content */
+.container {
+  max-width: 1200px; /* Adjust this value according to your layout */
+  margin: 0 auto;
+  padding: 20px;
+  color: #fff; /* Set text color to white */
+}
+
+/* Style headings */
+h1, h2, h3, h4, h5, h6 {
+  color: #fff;
+}
+
+/* Style links */
+a {
+  color: #00a0e8; /* Change link color to a different one */
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline; /* Add an underline on hover */
+}
+
+/* Style a navigation menu (example) */
+.navbar {
+  background-color: #333; /* Dark background color for the navbar */
+}
+
+.navbar ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+  padding: 10px 0;
+}
+
+.navbar li {
+  margin: 0 10px;
+}
+
+.navbar a {
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.3s; /* Smooth color transition on hover */
+}
+
+.navbar a:hover {
+  color: #00a0e8;
+}
+
+/* Add more custom styles for your specific website structure and elements */
