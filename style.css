@@ -55,6 +55,27 @@ a:hover {
   text-decoration: none;
   transition: color 0.3s; /* Smooth color transition on hover */
 }
+/* Your existing CSS styles go here */
+
+/* Style the new section */
+.site-section {
+  background-color: #fff; /* Set a white background color for the section */
+  padding: 20px;
+  margin: 20px;
+  border-radius: 20px; /* Make the borders circular */
+  box-shadow: 5px 5px 10px #888888; /* Apply a gray shadow effect */
+}
+
+.site-section h1 {
+  font-size: 24px;
+  color: #333; /* Set a dark text color for the heading */
+}
+
+.site-section p {
+  font-size: 16px;
+  color: #555; /* Set a slightly darker text color for the paragraph */
+}
+
 
 .navbar a:hover {
   color: #00a0e8;
