@@ -90,6 +90,7 @@ a:hover {
 
 .nav-item {
   width: calc(25% - 20px); /* Set each navigation item to be 25% of the container width with some spacing */
+  text-align: center;
 }
 
 .floating-nav a {
