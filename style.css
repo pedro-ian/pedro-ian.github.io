@@ -12,7 +12,7 @@
 }
 
 .header img {
-  max-width: 100%; /* Garanta que a imagem não exceda a largura da div */
+  max-width: 100px; /* Garanta que a imagem não exceda a largura da div */
   height: auto; /* Mantenha a proporção da imagem */
 }
 
