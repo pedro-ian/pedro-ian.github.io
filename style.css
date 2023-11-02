@@ -5,6 +5,17 @@
   box-sizing: border-box;
 }
 
+.header {
+  background-color: #333; /* Escolha a cor de fundo desejada */
+  padding: 20px; /* Adicione espaço em torno da imagem */
+  text-align: center; /* Centralize o conteúdo horizontalmente */
+}
+
+.header img {
+  max-width: 100%; /* Garanta que a imagem não exceda a largura da div */
+  height: auto; /* Mantenha a proporção da imagem */
+}
+
 /* Apply the background color */
 body {
   background-color: #464646;
