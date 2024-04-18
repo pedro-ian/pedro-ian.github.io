@@ -5,7 +5,7 @@ body {
 .top-bar {
   position: fixed; /* Set the position to fixed */
   top: 0; /* Align the top of the bar with the top of the viewport */
-  left: center; /* Align the left of the bar with the left of the viewport */
+  left: 0; /* Align the left of the bar with the left of the viewport */
   width: 100%; /* Make the bar span the full width of the viewport */
   background-color: #333; /* Dark background color */
   color: #00CEF7; /* Text color */
@@ -16,33 +16,23 @@ body {
   z-index: 1000; /* Set a high z-index to ensure the bar appears above other content */
 }
 
-.title h1 {
-  margin: 0; /* Remove default margin */
+/* Style for the title */
+.title {
+  flex: 1; /* Make the title grow to fill available space */
+  text-align: center; /* Center align the title */
+}
+
+/* Style for the navigation links */
+.nav-links {
+  display: flex; /* Use flexbox layout */
 }
 
 .nav-links a {
   color: #00CEF7; /* Text color */
   text-decoration: none; /* Remove underline */
-  margin-left: 10px; /* Add spacing between links */
+  margin: 0 10px; /* Add spacing between links */
 }
 
 .nav-links a:hover {
   text-decoration: underline; /* Underline on hover */
-}
-
-@media screen and (max-width: 768px) {
-  .top-bar {
-      flex-direction: column; /* Stack elements vertically */
-      padding: 10px; /* Reduce padding */
-  }
-  
-  .nav-links {
-      margin-top: 10px; /* Add spacing between title and links */
-  }
-  
-  .nav-links a {
-      margin-left: center; /* Reset margin for links */
-      display: block; /* Display links as block elements */
-      margin-bottom: 5px; /* Add spacing between links */
-  }
 }
