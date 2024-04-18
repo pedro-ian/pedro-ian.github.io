@@ -5,7 +5,7 @@ body {
 .top-bar {
   position: fixed; /* Set the position to fixed */
   top: 0; /* Align the top of the bar with the top of the viewport */
-  left: 0; /* Align the left of the bar with the left of the viewport */
+  left: center; /* Align the left of the bar with the left of the viewport */
   width: 100%; /* Make the bar span the full width of the viewport */
   background-color: #333; /* Dark background color */
   color: #00CEF7; /* Text color */
@@ -41,7 +41,7 @@ body {
   }
   
   .nav-links a {
-      margin-left: 0; /* Reset margin for links */
+      margin-left: center; /* Reset margin for links */
       display: block; /* Display links as block elements */
       margin-bottom: 5px; /* Add spacing between links */
   }
