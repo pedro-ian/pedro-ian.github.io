@@ -11,6 +11,7 @@ body {
   color: #00CEF7; /* Text color */
   padding: 2px 20px; /* Add padding to top and bottom */
   display: flex; /* Use flexbox layout */
+  height: 40px;
   justify-content: space-between; /* Align items to start and end */
   align-items: center; /* Center vertically */
   z-index: 1000; /* Set a high z-index to ensure the bar appears above other content */
