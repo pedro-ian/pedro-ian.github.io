@@ -21,7 +21,7 @@ body {
 }
 
 .nav-links a {
-  color: #fff; /* Text color */
+  color: #00CEF7; /* Text color */
   text-decoration: none; /* Remove underline */
   margin-left: 10px; /* Add spacing between links */
 }
