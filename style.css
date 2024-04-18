@@ -19,7 +19,7 @@ body {
 
 /* Style for the title */
 .title {
-  flex: 0.8; /* Make the title grow to fill available space */
+  flex: 0.5; /* Make the title grow to fill available space */
   text-align: center; /* Center align the title */
 }
 
