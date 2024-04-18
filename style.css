@@ -1,3 +1,43 @@
 body {
   background-color: #68657D;
 }
+
+.top-bar {
+  background-color: #333; /* Dark background color */
+  color: #fff; /* Text color */
+  padding: 10px 20px; /* Add padding to top and bottom */
+  display: flex; /* Use flexbox layout */
+  justify-content: space-between; /* Align items to start and end */
+  align-items: center; /* Center vertically */
+}
+
+.title h1 {
+  margin: 0; /* Remove default margin */
+}
+
+.nav-links a {
+  color: #fff; /* Text color */
+  text-decoration: none; /* Remove underline */
+  margin-left: 10px; /* Add spacing between links */
+}
+
+.nav-links a:hover {
+  text-decoration: underline; /* Underline on hover */
+}
+
+@media screen and (max-width: 768px) {
+  .top-bar {
+      flex-direction: column; /* Stack elements vertically */
+      padding: 10px; /* Reduce padding */
+  }
+  
+  .nav-links {
+      margin-top: 10px; /* Add spacing between title and links */
+  }
+  
+  .nav-links a {
+      margin-left: 0; /* Reset margin for links */
+      display: block; /* Display links as block elements */
+      margin-bottom: 5px; /* Add spacing between links */
+  }
+}
