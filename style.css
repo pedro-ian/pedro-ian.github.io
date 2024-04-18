@@ -9,7 +9,7 @@ body {
   width: 100%; /* Make the bar span the full width of the viewport */
   background-color: #333; /* Dark background color */
   color: #00CEF7; /* Text color */
-  padding: 5px 20px; /* Add padding to top and bottom */
+  padding: 2px 20px; /* Add padding to top and bottom */
   display: flex; /* Use flexbox layout */
   justify-content: space-between; /* Align items to start and end */
   align-items: center; /* Center vertically */
