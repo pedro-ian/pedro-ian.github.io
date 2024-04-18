@@ -28,6 +28,7 @@ body {
   display: flex; /* Use flexbox layout */
   margin-right: 10px; /* Add margin to the right side of the first set of links */
   margin-left: 10px;
+  justify-content: flex-end;
 }
 
 .nav-links a {
