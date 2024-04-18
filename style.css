@@ -25,12 +25,13 @@ body {
 /* Style for the navigation links */
 .nav-links {
   display: flex; /* Use flexbox layout */
+  margin-right: 10px; /* Add margin to the right side of the first set of links */
 }
 
 .nav-links a {
   color: #00CEF7; /* Text color */
   text-decoration: none; /* Remove underline */
-  margin: 0 10px; /* Add spacing between links */
+  margin: 0 5px; /* Add spacing between links */
 }
 
 .nav-links a:hover {
