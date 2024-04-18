@@ -20,8 +20,9 @@ body {
 
 /* Style for the title */
 .title {
-  flex: 0.5; /* Make the title grow to fill available space */
+  flex: 1; /* Make the title grow to fill available space */
   text-align: center; /* Center align the title */
+  font-size: 24px;
 }
 
 /* Style for the navigation links */
