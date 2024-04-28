@@ -18,13 +18,6 @@ body {
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 1); /* Add a subtle stroke outside the top bar */
 }
 
-/* Style for the title */
-.title {
-  flex: 1; /* Make the title grow to fill available space */
-  text-align: center; /* Center align the title */
-  font-size: 24px;
-}
-
 /* Style for the navigation links */
 .nav-links {
   display: flex; /* Use flexbox layout */
