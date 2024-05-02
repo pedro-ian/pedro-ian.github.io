@@ -1,4 +1,7 @@
 body {
+  display: flex;
+  flex: 1 1 100vw;
+
   background-color: #005C6F;
 }
 
@@ -7,7 +10,7 @@ body {
   top: 0; /* Align the top of the bar with the top of the viewport */
   left: 0; /* Align the left of the bar with the left of the viewport */
   width: 100%; /* Make the bar span the full width of the viewport */
-  background-color: red; /* Dark background color */
+  background-color: #333; /* Dark background color */
   color: #00CEF7; /* Text color */
   padding: 2px 20px; /* Add padding to top and bottom */
   display: flex; /* Use flexbox layout */
@@ -21,6 +24,8 @@ body {
 /* Style for the navigation links */
 .nav-links {
   display: flex; /* Use flexbox layout */
+  flex: 1 1 100vw; /* Tamanho que o elemento filho ocupa  */
+
   justify-content: center; /* Alinha horizontalmente */
   align-items: center; /* Alinha verticalmente */
   
@@ -33,11 +38,16 @@ body {
   color: #00CEF7; /* Text color */
   text-decoration: none; /* Remove underline */
   margin: 0 5px; /* Add spacing between links */
-
-
-
 }
 
 .nav-links a:hover {
   text-decoration: underline; /* Underline on hover */
+}
+
+.conteudo {
+  display: flex;
+  flex: 1 1 100vw;
+
+  align-items: center;
+  justify-content: center;
 }
