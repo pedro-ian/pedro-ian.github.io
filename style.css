@@ -8,7 +8,7 @@ body {
   display: flex;
   flex: 1 1 100vw;
 
-  background-color: #005C6F;
+  background-color: red;
 }
 
 .top-bar {
