@@ -1,3 +1,9 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
   display: flex;
   flex: 1 1 100vw;
@@ -7,8 +13,6 @@ body {
 
 .top-bar {
   position: fixed; /* Set the position to fixed */
-  top: 0; /* Align the top of the bar with the top of the viewport */
-  left: 0; /* Align the left of the bar with the left of the viewport */
   width: 100%; /* Make the bar span the full width of the viewport */
   background-color: #333; /* Dark background color */
   color: #00CEF7; /* Text color */
