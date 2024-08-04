@@ -3,6 +3,7 @@ body {
   padding: 25px;
   background: url(Images/mandelbrot.png);
   background-repeat: no-repeat;
-  background-size: auto
+  background-size: auto;
+  background-color: #5A5CCF;
   ;}
   
