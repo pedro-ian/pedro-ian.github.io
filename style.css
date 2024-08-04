@@ -1,6 +1,4 @@
 body {
-  border: 2px solid black;
-  padding: 25px;
   background: url(Images/mandelbrot.png);
   background-repeat: no-repeat;
   background-size: auto;
