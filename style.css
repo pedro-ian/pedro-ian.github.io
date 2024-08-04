@@ -7,20 +7,16 @@
 }
 
 .top a {
-  font-family: Impact;
+  font-family: Arial;
   font-size: 40;
   color: aliceblue;
   text-align: center;
 }
 
-.top a {
-  font-family: Impact;
+.top b {
+  font-family: Arial;
   font-size: 15;
   font-style: italic;
   color: aliceblue;
   text-align: center;
-}
-
-.main {
-  margin-top: 30px; /* Add a top margin to avoid content overlay */
 }
