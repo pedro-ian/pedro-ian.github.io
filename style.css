@@ -1,23 +1,49 @@
-.top {
-    margin: auto;
-    width: 100%;
-    background-color: #464646;
-    text-align: center;
-    font-family: 'Courier New', monospace;
+body, html 
+{
+    height: 100%;
+    background-color: #19332F;
 }
 
-.top a {
-    color: aliceblue;
-    font-size: 40px;
+nav
+{
+    display: flex;
 }
 
-.top b {
-    color: aliceblue;
-    font-size: 18px;
-    font-style: italic;
+nav ul
+{
+    display: flex;
+    padding: 10px;
+    margin: 0 0 0 0;
+    justify-content: center;
+    gap: 50px;    
 }
 
-.navbar {
+nav ul li
+{
+    display: inline;
+}
+
+nav ul li a
+{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover
+{
+    background-color: white;
+    color: cadetblue;
+    transform: scale(1.1);
+}
+
+.menu
+{
+    flex: 1;
+}
+
+header {
+    border-radius: 0 0 5px 25px;
     margin: auto;
     overflow: hidden;
     background-color: #464646;
@@ -25,43 +51,69 @@
     width: 100%;
     text-align: center;
     font-family: 'Courier New', monospace;
+    outline: solid;
+    padding: 0 0 0 0;
 }
 
-.navbar span a {
-    color: #f2f2f2;
+header h1
+{
+    color: aliceblue;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: normal;
+    font-family: "Courier New", monospace;
+    text-align: center;
+    margin: 10px;
+}
+
+header h2
+{
+    color: aliceblue;
+    font-style: normal;
+    font-weight: normal;
+    font-family: "Courier New", monospace;
+    text-align: center;
+    margin: 10px;
+}
+
+header span a {
+    color: white;
     padding: 14px 16px;
-    text-decoration: none;
+    text-decoration: none;s
     font-size: 17px;
 }
 
-.navbar span a:hover {
-  background: #ddd;
-  color: black;
+header span a:hover {
+    background: #ddd;
+    color: black;
 }
 
-.navbar span a.active {
-  background-color: #04AA6D;
-  color: white;
+header span a.active {
+    background-color: #04AA6D;
+    color: darkgrey;
 }
 
-.About_me{
+.About_me {
+    border-radius: 5px 25px 5px 25px;
     text-align: center;
     margin: auto;
     position: relative;
     top: 10px;
-    width: 100%;
+    padding: 20px;
+    width: 50%;
     background: #464646;
     font-family: 'Courier New', monospace;
+    outline: solid;  
 }
 
 .About_me a {
-    color: white;
     text-align: center;
     font-size: 30px;
+    color: aliceblue;
 }
 
 .About_me p {
-    color: white;
+    color: aliceblue;
     text-align: justify;
-    font-size: 20px;
+    font-size: 16px;
 }
