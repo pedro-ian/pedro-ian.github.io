@@ -60,7 +60,7 @@ header h1
     color: aliceblue;
     font-size: 40px;
     font-style: normal;
-    font-weight: normal;
+    font-weight: bold;
     font-family: "Courier New", monospace;
     text-align: center;
     margin: 10px;
@@ -70,7 +70,7 @@ header h2
 {
     color: aliceblue;
     font-style: normal;
-    font-weight: normal;
+    font-weight: bold;
     font-family: "Courier New", monospace;
     text-align: center;
     margin: 10px;
@@ -108,6 +108,7 @@ header span a.active {
 
 .About_me a {
     text-align: center;
+    font-weight: bold;
     font-size: 30px;
     color: aliceblue;
 }
