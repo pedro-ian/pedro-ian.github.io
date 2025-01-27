@@ -104,12 +104,17 @@ header span a.active {
     background: #464646;
     font-family: 'Courier New', monospace;
     outline: solid;  
+    margin-bottom: 50px;
 }
 
+.About_me ul li{
+    text-align: left;
+    color: aliceblue;
+}
 .About_me a {
-    text-align: center;
+    text-align: left;
     font-weight: bold;
-    font-size: 30px;
+    font-size: 16px;
     color: aliceblue;
 }
 
@@ -125,3 +130,4 @@ header span a.active {
     text-align: justify;
     font-size: 16px;
 }
+
